@@ -1,0 +1,6 @@
+{
+  "name": "Artes Para Placas NFC - Modelos Editáveis no Canva",
+  "description": "Pacote completo com modelos de artes editáveis no Canva para placas e displays NFC por apenas R$ 10,00.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
