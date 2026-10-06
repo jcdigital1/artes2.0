@@ -19,27 +19,27 @@ export const FinalCTA: React.FC = () => {
 
       {/* Container Box */}
       <div className="relative rounded-3xl p-8 sm:p-12 md:p-14 bg-gradient-to-b from-[#0a1e4a] via-[#051230] to-[#020718] border-2 border-cyan-400/50 shadow-[0_0_60px_-5px_rgba(6,182,212,0.4)] backdrop-blur-xl">
-        <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-cyan-950/80 border border-cyan-400/40 text-xs font-bold text-cyan-300 uppercase tracking-widest mb-4">
+        <div className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-cyan-950/80 border border-cyan-400/40 text-xs font-semibold text-cyan-300 uppercase tracking-wider mb-4">
           <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
           <span>ACESSO IMEDIATO</span>
         </div>
 
         {/* Heading: COMECE AGORA */}
-        <h2 className="font-heading text-3xl sm:text-5xl md:text-6xl font-black uppercase text-white tracking-tight mb-4">
+        <h2 className="font-heading text-3xl sm:text-5xl md:text-6xl font-bold uppercase text-white tracking-tight mb-4">
           COMECE AGORA
         </h2>
 
         {/* Subtitle */}
-        <p className="text-base sm:text-lg md:text-xl text-slate-200 font-medium max-w-2xl mx-auto mb-6">
+        <p className="text-base sm:text-lg md:text-xl text-slate-200 font-normal max-w-2xl mx-auto mb-6">
           Tenha modelos profissionais prontos para personalizar e usar nas suas placas NFC.
         </p>
 
         {/* Price Display */}
         <div className="my-6">
-          <span className="font-heading text-5xl sm:text-6xl md:text-7xl font-black text-white text-glow-cyan tracking-tight">
+          <span className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold text-white text-glow-cyan tracking-tight">
             {PRODUCT_PRICE}
           </span>
-          <p className="text-xs sm:text-sm text-cyan-300 font-semibold mt-1">
+          <p className="text-xs sm:text-sm text-cyan-300 font-medium mt-1">
             Pagamento único • Sem mensalidades
           </p>
         </div>
@@ -50,7 +50,7 @@ export const FinalCTA: React.FC = () => {
             href={CHECKOUT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-3d animate-pulse-subtle inline-flex items-center justify-center gap-3 w-full max-w-md px-8 py-4 sm:py-5 rounded-2xl text-base sm:text-lg md:text-xl font-black uppercase tracking-wide text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/60 shadow-[0_10px_35px_-5px_rgba(6,182,212,0.6)] cursor-pointer"
+            className="btn-3d animate-pulse-subtle inline-flex items-center justify-center gap-3 w-full max-w-md px-8 py-4 sm:py-4.5 rounded-2xl text-base sm:text-lg md:text-xl font-bold uppercase tracking-wide text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/60 shadow-[0_10px_35px_-5px_rgba(6,182,212,0.6)] cursor-pointer"
           >
             <span>GARANTIR MEUS MODELOS</span>
             <Zap className="w-5 h-5 fill-cyan-200 text-white" />
@@ -60,9 +60,9 @@ export const FinalCTA: React.FC = () => {
         {/* Seals: ✓ Acesso digital, ✓ Editável, ✓ Fácil de personalizar */}
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-8 pt-4 border-t border-cyan-500/20">
           {FINAL_SEALS.map((seal, index) => (
-            <div key={index} className="flex items-center gap-2 text-xs sm:text-sm font-bold text-slate-200">
+            <div key={index} className="flex items-center gap-2 text-xs sm:text-sm font-medium text-slate-200">
               <div className="w-4 h-4 rounded-full bg-cyan-500/20 border border-cyan-400/40 flex items-center justify-center">
-                <Check className="w-2.5 h-2.5 text-cyan-400 stroke-[3]" />
+                <Check className="w-2.5 h-2.5 text-cyan-400 stroke-[2.5]" />
               </div>
               <span>{seal}</span>
             </div>

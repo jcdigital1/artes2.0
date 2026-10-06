@@ -30,10 +30,10 @@ export const FloatingMobileBar: React.FC = () => {
       <div className="flex items-center justify-between gap-3 max-w-md mx-auto">
         {/* Price & Title info */}
         <div className="flex flex-col leading-tight pl-1">
-          <span className="text-[10px] uppercase font-extrabold tracking-wider text-cyan-400">
+          <span className="text-[10px] uppercase font-semibold tracking-wider text-cyan-400">
             MODELOS EDITÁVEIS
           </span>
-          <span className="font-heading text-lg font-black text-white text-glow-cyan">
+          <span className="font-heading text-lg font-bold text-white text-glow-cyan">
             {PRODUCT_PRICE}
           </span>
         </div>
@@ -43,7 +43,7 @@ export const FloatingMobileBar: React.FC = () => {
           href={CHECKOUT_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="btn-3d flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl text-xs font-black uppercase text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/50 shadow-md shadow-cyan-500/30 whitespace-nowrap active:scale-95"
+          className="btn-3d flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl text-xs font-bold uppercase text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/50 shadow-md shadow-cyan-500/30 whitespace-nowrap active:scale-95"
         >
           <span>COMPRAR AGORA</span>
           <Zap className="w-3.5 h-3.5 fill-cyan-200 text-white" />

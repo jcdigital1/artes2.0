@@ -215,7 +215,7 @@ export const Carousel: React.FC<CarouselProps> = ({ onSelectModel }) => {
                     </div>
 
                     {/* Tag badge */}
-                    <div className="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-cyan-950/85 border border-cyan-400/40 text-[11px] font-bold text-cyan-300 tracking-wider uppercase">
+                    <div className="absolute top-2.5 left-2.5 px-2.5 py-0.5 rounded-full bg-cyan-950/85 border border-cyan-400/40 text-[11px] font-semibold text-cyan-300 tracking-wider uppercase">
                       {model.tag}
                     </div>
                   </div>
@@ -226,11 +226,11 @@ export const Carousel: React.FC<CarouselProps> = ({ onSelectModel }) => {
                       <p className="text-xs font-semibold text-cyan-400/90 tracking-wide uppercase">
                         {model.category}
                       </p>
-                      <h3 className="text-sm sm:text-base font-bold text-white tracking-tight truncate">
+                      <h3 className="text-sm sm:text-base font-semibold text-white tracking-tight truncate">
                         {model.title}
                       </h3>
                     </div>
-                    <span className="text-[11px] font-bold text-slate-300 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">
+                    <span className="text-[11px] font-medium text-slate-300 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">
                       Canva
                     </span>
                   </div>

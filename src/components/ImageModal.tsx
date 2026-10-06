@@ -96,7 +96,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({ model, onClose, onSelect
         <div className="w-full md:w-[45%] p-5 sm:p-7 flex flex-col justify-between border-t md:border-t-0 md:border-l border-cyan-500/20 bg-gradient-to-b from-[#081533] to-[#020716] overflow-y-auto">
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <span className="px-2.5 py-0.5 rounded-full bg-cyan-950 border border-cyan-400/30 text-[11px] font-bold text-cyan-300 uppercase tracking-wider">
+              <span className="px-2.5 py-0.5 rounded-full bg-cyan-950 border border-cyan-400/30 text-[11px] font-semibold text-cyan-300 uppercase tracking-wider">
                 {model.tag}
               </span>
               <span className="text-xs text-slate-400 font-medium">
@@ -104,7 +104,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({ model, onClose, onSelect
               </span>
             </div>
 
-            <h3 className="font-heading text-xl sm:text-2xl font-black text-white tracking-tight mb-2">
+            <h3 className="font-heading text-xl sm:text-2xl font-bold text-white tracking-tight mb-2">
               {model.title}
             </h3>
 
@@ -134,10 +134,10 @@ export const ImageModal: React.FC<ImageModalProps> = ({ model, onClose, onSelect
 
           <div className="pt-4 border-t border-cyan-500/20">
             <div className="flex items-baseline justify-between mb-3">
-              <span className="text-xs text-slate-400 uppercase font-bold tracking-wider">
+              <span className="text-xs text-slate-400 uppercase font-medium tracking-wider">
                 Pacote Completo
               </span>
-              <span className="font-heading text-2xl font-black text-white text-glow-cyan">
+              <span className="font-heading text-2xl font-bold text-white text-glow-cyan">
                 {PRODUCT_PRICE}
               </span>
             </div>
@@ -146,7 +146,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({ model, onClose, onSelect
               href={CHECKOUT_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-3d flex items-center justify-center gap-2 w-full py-3.5 px-4 rounded-xl text-sm font-black uppercase text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/40 text-center"
+              className="btn-3d flex items-center justify-center gap-2 w-full py-3.5 px-4 rounded-xl text-sm font-bold uppercase text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/40 text-center"
             >
               <span>GARANTIR TODOS OS MODELOS</span>
               <Zap className="w-4 h-4 fill-cyan-200 text-white" />

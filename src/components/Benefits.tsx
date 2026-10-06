@@ -41,7 +41,7 @@ export const Benefits: React.FC = () => {
     <section className="relative py-12 sm:py-16 px-4 max-w-5xl mx-auto">
       {/* Section Header */}
       <div className="text-center max-w-2xl mx-auto mb-10 sm:mb-12">
-        <h2 className="font-heading text-3xl sm:text-5xl font-black uppercase text-white tracking-tight mb-4">
+        <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold uppercase text-white tracking-tight mb-4">
           EDITE DO <span className="text-cyan-400 text-glow-cyan">SEU JEITO</span>
         </h2>
         <div className="w-16 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto rounded-full" />
@@ -62,7 +62,7 @@ export const Benefits: React.FC = () => {
                 </span>
               </div>
 
-              <h3 className="font-heading text-lg font-black text-white tracking-wide uppercase mb-2">
+              <h3 className="font-heading text-base sm:text-lg font-bold text-white tracking-wide uppercase mb-2">
                 {item.title}
               </h3>
 
@@ -77,10 +77,10 @@ export const Benefits: React.FC = () => {
       {/* Frase Destacada */}
       <div className="relative rounded-2xl p-6 sm:p-8 bg-gradient-to-r from-blue-950/60 via-cyan-950/50 to-blue-950/60 border border-cyan-400/40 shadow-[0_0_35px_rgba(6,182,212,0.18)] backdrop-blur-md text-center max-w-3xl mx-auto">
         <div className="space-y-1 sm:space-y-2">
-          <p className="font-heading text-lg sm:text-2xl md:text-3xl font-extrabold text-white tracking-tight">
+          <p className="font-heading text-lg sm:text-2xl md:text-3xl font-bold text-white tracking-tight">
             Você não precisa criar uma arte do zero.
           </p>
-          <p className="text-cyan-300 font-semibold text-base sm:text-xl">
+          <p className="text-cyan-300 font-medium text-base sm:text-xl">
             Escolha um modelo, personalize e deixe pronto para seu cliente.
           </p>
         </div>

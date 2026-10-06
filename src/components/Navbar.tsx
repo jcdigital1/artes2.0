@@ -9,15 +9,15 @@ export const Navbar: React.FC = () => {
         {/* Brand Zone */}
         <a 
           href="#" 
-          className="flex items-center gap-2.5 text-lg font-extrabold tracking-tight text-white hover:text-cyan-400 transition-colors"
+          className="flex items-center gap-2.5 text-lg font-bold tracking-tight text-white hover:text-cyan-400 transition-colors"
           aria-label="Placas NFC Modelos"
         >
           <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-blue-600 to-cyan-400 p-[1px] flex items-center justify-center shadow-lg shadow-cyan-500/20">
             <div className="w-full h-full bg-[#030d22] rounded-[7px] flex items-center justify-center">
-              <span className="text-cyan-400 font-black text-sm">NFC</span>
+              <span className="text-cyan-400 font-bold text-xs">NFC</span>
             </div>
           </div>
-          <span className="font-heading font-black text-base sm:text-lg tracking-wider">
+          <span className="font-heading font-bold text-base sm:text-lg tracking-wider">
             PLACAS<span className="text-cyan-400">NFC</span>
           </span>
         </a>

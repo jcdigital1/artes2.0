@@ -11,14 +11,14 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ onSelectModel }) => {
     <section className="relative py-12 sm:py-16 px-3 sm:px-4 max-w-5xl mx-auto">
       {/* Title */}
       <div className="text-center max-w-2xl mx-auto mb-8 sm:mb-12">
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-400/30 text-xs font-bold text-cyan-300 uppercase tracking-widest mb-3">
+        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-400/30 text-xs font-semibold text-cyan-300 uppercase tracking-wider mb-3">
           <Sparkles className="w-3.5 h-3.5 text-cyan-400" />
           <span>GALERIA COMPLETA</span>
         </div>
-        <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-black uppercase text-white tracking-tight mb-3">
+        <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold uppercase text-white tracking-tight mb-3">
           CONFIRA OS MODELOS
         </h2>
-        <p className="text-sm sm:text-base text-slate-300">
+        <p className="text-sm sm:text-base text-slate-300 font-normal">
           Toque em qualquer modelo para visualizar em tamanho ampliado
         </p>
       </div>
@@ -43,14 +43,14 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ onSelectModel }) => {
 
               {/* Hover overlay hint */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center p-3">
-                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500 text-black text-xs font-extrabold uppercase tracking-wider shadow-md">
+                <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-500 text-black text-xs font-bold uppercase tracking-wider shadow-md">
                   <Maximize2 className="w-3.5 h-3.5" />
                   Ampliar
                 </span>
               </div>
 
               {/* Tag pill */}
-              <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-cyan-950/90 border border-cyan-400/30 text-[10px] sm:text-xs font-bold text-cyan-300 uppercase">
+              <div className="absolute top-2 left-2 px-2 py-0.5 rounded-md bg-cyan-950/90 border border-cyan-400/30 text-[10px] sm:text-xs font-semibold text-cyan-300 uppercase">
                 {model.tag}
               </div>
             </div>
@@ -60,7 +60,7 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({ onSelectModel }) => {
               <span className="text-[10px] sm:text-xs font-semibold text-cyan-400 tracking-wide uppercase block truncate">
                 {model.category}
               </span>
-              <h3 className="font-heading text-xs sm:text-sm md:text-base font-bold text-white tracking-tight truncate">
+              <h3 className="font-heading text-xs sm:text-sm md:text-base font-semibold text-white tracking-tight truncate">
                 {model.title}
               </h3>
             </div>

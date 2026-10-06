@@ -12,7 +12,8 @@
   }
   
   h1, h2, h3, .font-heading {
-    font-family: 'Syne', 'Plus Jakarta Sans', system-ui, sans-serif;
+    font-family: 'Outfit', 'Plus Jakarta Sans', system-ui, sans-serif;
+    letter-spacing: -0.015em;
   }
 }
 

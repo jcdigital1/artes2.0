@@ -20,29 +20,29 @@ export const OfferCard: React.FC = () => {
         {/* Small badge: OFERTA ESPECIAL */}
         <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-400/50 shadow-[0_0_15px_rgba(6,182,212,0.3)] mb-4">
           <Sparkles className="w-3.5 h-3.5 text-cyan-300 animate-spin" style={{ animationDuration: '6s' }} />
-          <span className="text-xs sm:text-sm font-extrabold tracking-widest text-cyan-300 uppercase">
+          <span className="text-xs sm:text-sm font-semibold tracking-wider text-cyan-300 uppercase">
             OFERTA ESPECIAL
           </span>
         </div>
 
         {/* Title: LEVE OS NOVOS MODELOS */}
-        <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-black uppercase text-white tracking-tight mb-6">
+        <h2 className="font-heading text-2xl sm:text-4xl md:text-5xl font-bold uppercase text-white tracking-tight mb-6">
           LEVE OS NOVOS MODELOS
         </h2>
 
         {/* Price Highlight */}
         <div className="my-6 py-4 px-6 rounded-2xl bg-gradient-to-r from-blue-950/40 via-cyan-950/30 to-blue-950/40 border border-cyan-500/30 inline-block max-w-md w-full shadow-inner">
-          <p className="text-xs sm:text-sm font-bold uppercase tracking-widest text-slate-400 mb-1">
+          <p className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-slate-400 mb-1">
             POR APENAS
           </p>
           <div className="flex items-center justify-center gap-1">
-            <span className="font-heading text-5xl sm:text-6xl md:text-7xl font-black tracking-tight text-white text-glow-cyan">
+            <span className="font-heading text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight text-white text-glow-cyan">
               {PRODUCT_PRICE}
             </span>
           </div>
 
           <div className="mt-2 flex items-center justify-center gap-3 text-xs sm:text-sm font-medium text-slate-300">
-            <span className="text-cyan-300 font-bold">Pagamento único</span>
+            <span className="text-cyan-300 font-semibold">Pagamento único</span>
             <span className="text-slate-600" aria-hidden="true">•</span>
             <span className="text-slate-300">Sem mensalidade.</span>
           </div>
@@ -54,7 +54,7 @@ export const OfferCard: React.FC = () => {
             href={CHECKOUT_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-3d animate-pulse-subtle inline-flex items-center justify-center gap-3 w-full max-w-md px-8 py-4 sm:py-5 rounded-2xl text-base sm:text-lg md:text-xl font-black uppercase tracking-wide text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/60 shadow-[0_10px_35px_-5px_rgba(6,182,212,0.6)] cursor-pointer"
+            className="btn-3d animate-pulse-subtle inline-flex items-center justify-center gap-3 w-full max-w-md px-8 py-4 sm:py-4.5 rounded-2xl text-base sm:text-lg md:text-xl font-bold uppercase tracking-wide text-white bg-gradient-to-r from-blue-600 via-cyan-500 to-blue-600 border border-cyan-300/60 shadow-[0_10px_35px_-5px_rgba(6,182,212,0.6)] cursor-pointer"
           >
             <span>QUERO MEUS MODELOS AGORA</span>
             <Zap className="w-5 h-5 fill-cyan-200 text-white" />
