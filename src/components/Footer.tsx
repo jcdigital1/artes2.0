@@ -21,7 +21,7 @@ export const Footer: React.FC = () => {
         <div className="flex flex-wrap items-center justify-center gap-4 text-[11px] text-slate-300">
           <div className="flex items-center gap-1.5">
             <Lock className="w-3.5 h-3.5 text-cyan-400" />
-            <span>Checkout Seguro Cakto</span>
+            <span>Checkout Seguro PepperPay</span>
           </div>
           <span className="text-slate-700">•</span>
           <div className="flex items-center gap-1.5">

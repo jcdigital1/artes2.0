@@ -7,7 +7,7 @@ export interface ModelItem {
   description: string;
 }
 
-export const CHECKOUT_URL = "https://pay.cakto.com.br/zicgdc9_1178529";
+export const CHECKOUT_URL = "https://go.pepperpay.com.br/yjvtt";
 export const PRODUCT_PRICE = "R$ 10,00";
 
 export const NFC_MODELS: ModelItem[] = [
